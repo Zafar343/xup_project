@@ -39,11 +39,3 @@ data/
 datasets/
 __pycache__/
 analysis/
-
-# Ignore python files
-*.pyc
-*.pyo
-*.pyd
-*.pyw
-*.pyz
-*.pywz
