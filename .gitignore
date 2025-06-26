@@ -1,0 +1,49 @@
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+*.tif
+*.webp
+
+# Ignore text files
+*.txt
+*.csv
+*.tsv
+*.log
+
+# Ignore model weights and checkpoints
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.pb
+*.onnx
+*.joblib
+*.pkl
+*.sav
+*.npz
+*.npy
+
+# Ignore folders commonly used for models, data, and outputs
+models/
+weights/
+checkpoints/
+outputs/
+logs/
+runs/
+data/
+datasets/
+__pycache__/
+analysis/
+
+# Ignore python files
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
