@@ -1,0 +1,29 @@
+
+
+distance_parameters:
+  dist_offset: 0.55               ### Offset for distance calculation in meters
+  vanishing_point_offset: 600     ### Offset for vanishing point in pixels
+  hf: 1536                        ### Height of the image in pixels
+  camera_height: 0.6              ### Height of the camera in meters
+  max_visible_distance: 1.95      ### Maximum visible distance in meters
+  focal_length: 2646              ### Focal length in pixels
+  scale: 0.53                     ### Scale factor for distance calculation
+
+yolo_parameters:
+  class_names: ["divot", "fixed_divot", "deseased_grass"] ### Class names for YOLO format
+  confidence: 0.5 
+  iou: 0.5
+  save: true
+
+flags:
+  save_results: true ### Save results to disk
+  use_gpu: true ### Use GPU for inference, if true, set to false to use CPU
+
+paths:
+  logs_dir: "distance_estimate_logs" ### Path to save logs
+  img_dir: "distance_est_imgs" ### Path to the images, assuming labels are in the same directory as the script
+  results_dir: "distance_est_results" ### Path to save the results
+  
+
+
+
